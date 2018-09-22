@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/pauly/Desktop/Lab3-2/is_power_of_two_tb_isim_beh.exe" -prj "C:/Users/pauly/Desktop/Lab3-2/is_power_of_two_tb_beh.prj" "work.is_power_of_two_tb" "work.glbl" 

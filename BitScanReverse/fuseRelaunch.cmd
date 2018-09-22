@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/pauly/Desktop/Lab3-1/bit_scan_reverse2_tb_isim_beh.exe" -prj "C:/Users/pauly/Desktop/Lab3-1/bit_scan_reverse2_tb_beh.prj" "work.bit_scan_reverse2_tb" "work.glbl" 

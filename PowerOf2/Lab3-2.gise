@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab3-2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="is_power_of_2_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="is_power_of_2_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="is_power_of_2_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="is_power_of_two_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="is_power_of_two_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="is_power_of_two_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1537579765" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1537579765">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1537595361" xil_pn:in_ck="-3101136671127097217" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1537595361">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="is_power_of_2.v"/>
+      <outfile xil_pn:name="is_power_of_two_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1537583940" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7261221287869582303" xil_pn:start_ts="1537583940">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1537583940" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3908223053904054947" xil_pn:start_ts="1537583940">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1537579765" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3758257000586484812" xil_pn:start_ts="1537579765">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1537595361" xil_pn:in_ck="-3101136671127097217" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1537595361">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="is_power_of_2.v"/>
+      <outfile xil_pn:name="is_power_of_two_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1537595362" xil_pn:in_ck="-3101136671127097217" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="558482578562420003" xil_pn:start_ts="1537595361">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="is_power_of_two_tb_beh.prj"/>
+      <outfile xil_pn:name="is_power_of_two_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1537595363" xil_pn:in_ck="7579354535337951562" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1119250093018591270" xil_pn:start_ts="1537595362">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="is_power_of_two_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+  </transforms>
+
+</generated_project>
